@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f4f6f5;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 55px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* NAV */
+nav {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4caf50;
+}
+
+/* IMAGE SECTIONS */
+.image-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 80% OPAQUE WHITE PANEL */
+.panel {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* BACKGROUND IMAGES */
+.forest {
+    background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e");
+}
+
+.glacier {
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+}
+
+.recycle {
+    background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+}
+
+/* WHITE SECTIONS */
+.white-section {
+    padding: 80px 0;
+    background: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background: #e8f5e9;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 12px;
+    background: #1b5e20;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2e7d32;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
